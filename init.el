@@ -1,4 +1,4 @@
-;;(global-hl-line-mode 1)
+(global-hl-line-mode 1)
 (global-linum-mode t)
 (display-time-mode 1)
 
@@ -43,3 +43,6 @@ Replaces default behaviour of comment-dwim, when it inserts comment at the end o
         (comment-or-uncomment-region (line-beginning-position) (line-end-position))
     (comment-dwim arg)))
 (global-set-key "\M-;" 'qiang-comment-dwim-line)
+
+;; emacs geben
+(autoload 'geben "geben" "PHP Debugger on Emacs" t)

@@ -1,3 +1,6 @@
 [submodule "site-lisp/helm"]
 	path = site-lisp/helm
 	url = git@github.com:emacs-helm/helm.git
+[submodule "site-lisp/geben"]
+	path = site-lisp/geben
+	url = git@bitbucket.org:gnuhub/geben.git
